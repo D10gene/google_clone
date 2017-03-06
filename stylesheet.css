@@ -1,0 +1,43 @@
+#icon {
+  position: absolute;
+        width: 272px; /*the image width*/
+        height: 92px; /*the image height*/
+        left: 50%;
+        top: 50%;
+        margin-left: -136px; /*half the image width*/
+        margin-top: -46px; /*half the image height*/
+}
+
+.navigation {
+  float:right;
+  text-align: right;
+  width: auto;
+
+}
+
+ul {
+
+list-style-type: none;
+
+}
+
+li {
+  float: left;
+  padding: 5px;
+}
+
+li a {
+text-decoration: none;
+
+}
+
+ul li a:hover {
+
+  color: red;
+  te
+
+}
+
+.foot {
+
+}
