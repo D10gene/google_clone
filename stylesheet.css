@@ -3,7 +3,7 @@
         width: 272px; /*the image width*/
         height: 92px; /*the image height*/
         left: 50%;
-        top: 50%;
+        top: 40%;
         margin-left: -136px; /*half the image width*/
         margin-top: -46px; /*half the image height*/
 }
@@ -12,32 +12,142 @@
   float:right;
   text-align: right;
   width: auto;
+  margin-right: 10px;
 
 }
 
-ul {
+.navigation ul {
 
 list-style-type: none;
 
 }
 
-li {
+.navigation li {
   float: left;
-  padding: 5px;
+  padding-right: 18px;
+
+
 }
 
-li a {
+.navigation ul li a {
+
 text-decoration: none;
+color:#757575;
+font-size: 14px;
+font-family: arial, sans-serif;
 
 }
 
-ul li a:hover {
+.navigation ul li a:hover {
 
-  color: red;
-  te
 
+  text-decoration:underline;
+
+}
+
+#search {
+  position: absolute;
+  top:48%;
+  left:31%;
+}
+
+input[type="text"]
+{
+    width:463px;
+    height: 34px;
+    font-style: arial,sans-serif;
+    font-size: 16px;
+}
+
+.buttons {
+  position: absolute;
+  top:56%;
+  left:38%;
+}
+
+#cautare {
+  float:left;
+  margin-right: 6px;
+}
+
+
+
+#lucky {
+  float:right;
+  margin-right: 0px;
+}
+
+input[type="submit"] {
+  background-color: #f2f2f2; /* Green */
+    border: none;
+    color: #757575;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+p {
+  position:absolute;
+  top:63%;
+  left:38%;
+  font-style: arial, sans-serif;
+  font-size: 15px;
+  color:#222;
+
+}
+
+p a {
+  text-decoration: none;
+  margin-left:5px;
+  color: blue;
+}
+
+p a:hover {
+  text-decoration: underline;
 }
 
 .foot {
+  height:auto;
+  background-color: #f2f2f2;
+  padding: 2px 5px 5px 2px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display:block;
 
+
+
+}
+
+#bottomnav ul {
+  list-style-type: none;
+
+
+}
+
+#bottomnav ul li {
+  font-size:10pt;
+  padding:10px;
+  display: inline;
+
+}
+
+#bottomnav ul li a{
+  text-decoration:none;
+  color:#757575;
+  font-size:14px;
+
+
+}
+#container1 {
+  float:left;
+}
+
+#container2 {
+  float:right;
+  padding-right: 5px;
 }
